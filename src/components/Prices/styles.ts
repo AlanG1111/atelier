@@ -1,14 +1,14 @@
 import styled from "@emotion/styled";
-
+// eslint-disable-next-line no-empty-pattern
 export const TelLink = styled("a")(({}) => ({
   textDecoration: "none",
   fontSize: "1rem",
   fontWeight: "bold",
   color: "inherit",
 }));
-
+// eslint-disable-next-line no-empty-pattern
 export const PriceBlock = styled("div")(({}) => ({}));
-
+// eslint-disable-next-line no-empty-pattern
 export const PriceElement = styled("div")(({}) => ({
   display: "flex",
   justifyContent: "space-between",
@@ -19,15 +19,15 @@ export const PriceElement = styled("div")(({}) => ({
     color: "rgba(0, 0, 0, 0.6)",
   },
 }));
-
+// eslint-disable-next-line no-empty-pattern
 export const Price = styled("span")(({}) => ({
   width: "50px",
 }));
-
+// eslint-disable-next-line no-empty-pattern
 export const PriceTitle = styled("span")(({}) => ({
   width: "250px",
 }));
-
+// eslint-disable-next-line no-empty-pattern
 export const PriceContainer = styled("div")(({}) => ({
   display: "flex",
   flexWrap: "wrap",
