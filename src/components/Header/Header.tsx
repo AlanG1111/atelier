@@ -8,10 +8,8 @@ import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
-import MenuItem from "@mui/material/MenuItem";
-import ContentCutIcon from "@mui/icons-material/ContentCut";
-import { SubLogo, TelLink } from "./styles";
 import MainLogo from "../MainLogo/MainLogo";
+import { SubLogo, TelLink } from "./styles";
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(
