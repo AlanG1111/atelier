@@ -23,8 +23,8 @@ export default function Footer() {
               Про нас
             </Typography>
             <Typography variant='body2' color='text.secondary'>
-              Ательє ремонту та пошиття одягу "Рукавичка" - ваш надійний партнер
-              у відновленні і створенні стильного одягу. Якість та
+              Ательє ремонту та пошиття одягу "SmartАтельє" - ваш надійний
+              партнер у відновленні і створенні стильного одягу. Якість та
               професіоналізм - наші основні пріоритети. Звертайтесь до нас і
               переконайтесь у нашій дбайливості до деталей та індивідуальному
               підході до кожного замовлення.
@@ -67,7 +67,7 @@ export default function Footer() {
           <Typography variant='body2' color='text.secondary' align='center'>
             {"Copyright © "}
             <Link color='inherit' href='/'>
-              Рукавичка
+              SmartАтельє
             </Link>{" "}
             {new Date().getFullYear()}
             {"."}

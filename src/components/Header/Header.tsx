@@ -9,7 +9,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MainLogo from "../MainLogo/MainLogo";
-import { SubLogo, TelLink } from "./styles";
+import { TelLink } from "./styles";
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(
@@ -39,18 +39,17 @@ function ResponsiveAppBar() {
             sx={{
               display: { xs: "none", md: "flex" },
               mr: 2,
-              fontSize: "18px",
+              fontSize: "26px",
               lineHeight: "20px",
               flexDirection: "column",
-              fontFamily: "monospace",
+              fontFamily: "Caveat",
               fontWeight: 700,
-              letterSpacing: ".3rem",
+              letterSpacing: ".1rem",
               color: "inherit",
               textDecoration: "none",
             }}
           >
-            Рукавичка
-            <SubLogo>SmartАтельє</SubLogo>
+            SmartАтельє
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -110,9 +109,9 @@ function ResponsiveAppBar() {
               flexGrow: 1,
               justifyContent: "center",
               alignItems: "center",
-              fontFamily: "monospace",
+              fontFamily: "Caveat",
               fontWeight: 700,
-              letterSpacing: ".3rem",
+              letterSpacing: ".1rem",
               color: "inherit",
               textDecoration: "none",
             }}
@@ -121,7 +120,7 @@ function ResponsiveAppBar() {
               <MainLogo />
             </Box>
             <div style={{ display: "flex", flexDirection: "column" }}>
-              Рукавичка <SubLogo>SmartАтельє</SubLogo>
+              SmartАтельє
             </div>
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
@@ -150,8 +149,8 @@ function ResponsiveAppBar() {
               gap: "10px",
             }}
           >
-            <TelLink href='tel:380961280234'>+38096-128-02-34 Олена</TelLink>
-            <TelLink href='tel:380955990501'>+38095-599-05-01 Тетяна</TelLink>
+            <TelLink href='tel:+380961280234'>+38096-128-02-34 Олена</TelLink>
+            <TelLink href='tel:+380955990501'>+38095-599-05-01 Тетяна</TelLink>
           </Box>
         </Toolbar>
       </Container>

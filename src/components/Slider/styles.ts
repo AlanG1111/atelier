@@ -1,18 +1,14 @@
 import styled from "@emotion/styled";
 // eslint-disable-next-line no-empty-pattern
-export const TelLink = styled("a")(({}) => ({
-  textDecoration: "none",
-  fontSize: "1rem",
-  fontWeight: "bold",
-  color: "inherit",
+export const PriceBlock = styled("div")(({}) => ({
+  minHeight: "300px",
 }));
-// eslint-disable-next-line no-empty-pattern
-export const PriceBlock = styled("div")(({}) => ({}));
 // eslint-disable-next-line no-empty-pattern
 export const PriceElement = styled("div")(({}) => ({
   display: "flex",
   justifyContent: "space-between",
   marginBottom: "5px",
+  gap: "10px",
   "& > span": {
     fontSize: "0.875rem",
     lineHeight: "1.43",
@@ -21,7 +17,7 @@ export const PriceElement = styled("div")(({}) => ({
 }));
 // eslint-disable-next-line no-empty-pattern
 export const Price = styled("span")(({}) => ({
-  width: "50px",
+  width: "70px",
 }));
 // eslint-disable-next-line no-empty-pattern
 export const PriceTitle = styled("span")(({}) => ({
@@ -33,4 +29,19 @@ export const PriceContainer = styled("div")(({}) => ({
   flexWrap: "wrap",
   justifyContent: "center",
   gap: "20px",
+}));
+// eslint-disable-next-line no-empty-pattern
+export const ArrowContainer = styled("div")(({}) => ({
+  cursor: "pointer",
+  "& svg": {
+    fill: "rgba(188, 133, 133, 0.5)",
+  },
+}));
+// eslint-disable-next-line no-empty-pattern
+export const Controls = styled("div")(({}) => ({
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
+  gap: "20px",
+  marginTop: "10px",
 }));
