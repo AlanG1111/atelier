@@ -38,11 +38,11 @@ export default function Footer() {
               Київ,пр.Оболонський, 16є
             </Typography>
             <Typography variant='body2' color='text.secondary'>
-              Email: info@example.com
+              Email: smart.atelier.kyiv@gmail.com
             </Typography>
             <Typography variant='body2' color='text.secondary'>
               Телефон: +38096 128 02 34
-            </Typography>{" "}
+            </Typography>
             <Typography variant='body2' color='text.secondary'>
               Телефон: +38095 599 05 01
             </Typography>
