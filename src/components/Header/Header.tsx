@@ -149,8 +149,7 @@ function ResponsiveAppBar() {
               gap: "10px",
             }}
           >
-            <TelLink href='tel:+380961280234'>+38096-128-02-34 Олена</TelLink>
-            <TelLink href='tel:+380955990501'>+38095-599-05-01 Тетяна</TelLink>
+            <TelLink href='tel:+380961280234'>+38096-128-02-34</TelLink>
           </Box>
         </Toolbar>
       </Container>

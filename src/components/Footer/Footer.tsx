@@ -43,9 +43,6 @@ export default function Footer() {
             <Typography variant='body2' color='text.secondary'>
               Телефон: +38096 128 02 34
             </Typography>
-            <Typography variant='body2' color='text.secondary'>
-              Телефон: +38095 599 05 01
-            </Typography>
           </Grid>
           <Grid item xs={12} sm={4}>
             <Typography variant='h6' color='text.primary' gutterBottom>
