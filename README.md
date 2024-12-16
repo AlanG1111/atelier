@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/be03b464-a102-4067-84e1-37689ad4ba36/deploy-status)](https://app.netlify.com/sites/smart-atelier/deploys)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
