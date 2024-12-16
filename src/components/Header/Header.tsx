@@ -94,6 +94,9 @@ function ResponsiveAppBar() {
               <Button onClick={handleCloseNavMenu} href='#services'>
                 <Typography textAlign='center'>Послуги</Typography>
               </Button>
+              <Button onClick={handleCloseNavMenu} href='#works'>
+                <Typography textAlign='center'>Роботи</Typography>
+              </Button>
             </Menu>
           </Box>
           <Typography
@@ -137,6 +140,13 @@ function ResponsiveAppBar() {
               href='#services'
             >
               Послуги
+            </Button>
+            <Button
+              onClick={handleCloseNavMenu}
+              sx={{ my: 2, color: "white", display: "block" }}
+              href='#works'
+            >
+              Роботи
             </Button>
           </Box>
 
