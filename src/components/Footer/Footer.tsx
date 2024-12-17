@@ -35,7 +35,7 @@ export default function Footer() {
               Контакти
             </Typography>
             <Typography variant='body2' color='text.secondary'>
-              Київ,пр.Оболонський, 16є
+              Київ, вулиця Левка Лук'яненка, 19
             </Typography>
             <Typography variant='body2' color='text.secondary'>
               Email: smart.atelier.kyiv@gmail.com
